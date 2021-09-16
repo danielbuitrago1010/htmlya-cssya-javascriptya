@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="registrasdatos.php" method="POST">
+        <fieldset>
+            <legend>Seleccione cantidad y tipo de pizza</legend>
+            <select name="tipo1">
+                <option value="pizza1">Mozzarella</option>
+                <option value="pizza2">Hawaiana</option>
+                <option value="pizza3">Salami</option>
+            </select>
+            <select name="cantidad1">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+            <br>
+            <select name="tipo2">
+                <option value="pizza1">Mozzarella</option>
+                <option value="pizza2">Hawaiana</option>
+                <option value="pizza3">Salami</option>
+            </select>
+            <select name="cantidad2">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+            <br>
+            <select name="tipo3">
+                <option value="pizza1">Mozzarella</option>
+                <option value="pizza2">Hawaiana</option>
+                <option value="pizza3">Salami</option>
+            </select>
+            <select name="cantidad3">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Ingrese sus datos</legend>
+            Nombres y Apellidos:
+            <input type="text" name="nombresa" size="50"><br>
+            Telefono:
+            <input type="text" name="telefono" size="20"><br>
+            Direccion:
+            <input type="text" name="direccion" size="15"><br>
+
+        </fieldset>
+        <input type="submit" value="enviar"><br>
+
+
+        <form action="registrardatos.php" method="POST">
+            Ingrese su nombre:
+            <input type="text" name="nombre" size="50"><br>
+            Mail:
+            <input type="email" name="correo" size="20"><br>
+            Seleccionar pais se origen:
+            <select name="pais">
+
+                <option value="Seleccionar pais" selected>Seleccionar pais</option>
+                <option value="colombia">colombia</option>
+                <option value="argentina">argentina</option>
+                <option value="brasil">brasil</option>
+                <option value="peru">peru</option>
+                <option value="usa">usa</option>
+                <option value="canada">canada</option>
+                <option value="Francia">Francia</option>
+
+
+            </select><br>
+            Evalue el sitio:
+            <select name="sitioc" >
+<option value="1">Malo</option>
+<option value="2">Regular</option>
+<option value="3" selected>Bueno</option>
+<option value="4">Muy bueno</option>
+<option value="5">Excelente</option>
+
+            </select><br><br>
+
+<textarea name="Comentarios_"  cols="30" rows="10">Ingrese aqui sus Comentarios:</textarea><br>
+
+            <input type="submit" value="Enviar">
+
+
+        </form>
+    </form>
+</body>
+
+</html>
